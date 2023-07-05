@@ -10,7 +10,7 @@ bundle install
 
 ### 2, Configure Cliens
 
-Open `apple.rb` and change Client Options
+Open `start.rb ` and change Client Options
 
 ```ruby
 
