@@ -41,6 +41,7 @@ class Apple
     client.client_id = 'com.old.xxxxx'
     # 开发者账号id
     client.team_id = 'OLDXXXXXXX'
+    client
   end
 end
 
