@@ -2,13 +2,18 @@
 
 ## Usage
 
-### 1, Install Gems: 
+### 1、 Install Gems: 
 
 ```shell
 bundle install
 ```
 
-### 2, Configure Cliens
+### 2、 Set your p8 file
+
+Open `Tool/p8 ` folder 
+Set your new_AuthKey.p8 and old_AuthKey.p8 file
+
+### 3、 Configure Cliens
 
 Open `start.rb ` and change Client Options
 
@@ -41,16 +46,17 @@ def self.old_client
   client.client_id = 'com.old.xxxxx'
   # 开发者账号id
   client.team_id = 'OLDXXXXXXX'
+  client
 end
 
 ```
-### 3, Set Apple Sub
+### 4, Set Apple Sub
 
 Open `start.rb` and change the Sub
 ```ruby
 migration.sub = 'XXX'
 ```
-### 4, Run Migration: 
+### 5, Run Migration: 
 
 ```shell
 ruby ./Tool/start.rb
