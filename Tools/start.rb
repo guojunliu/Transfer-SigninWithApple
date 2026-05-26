@@ -4,7 +4,7 @@ require_relative 'client.rb'
 class Apple
   def self.test
     migration = Migration.new
-    # 老账号下用户登录产生的sub
+    # 老账号下用户登录产生的sub
     migration.sub = '111111.xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.1111'
     migration.new_client = new_client
     migration.old_client = old_client
