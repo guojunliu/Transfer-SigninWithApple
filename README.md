@@ -59,5 +59,5 @@ migration.sub = 'XXX'
 ### 5, Run Migration: 
 
 ```shell
-ruby ./Tool/start.rb
+ruby ./Tools/start.rb
 ```
